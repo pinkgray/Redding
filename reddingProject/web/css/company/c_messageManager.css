@@ -1,0 +1,133 @@
+@charset "UTF-8";
+#MMcontentArea{
+   width: 100%;
+    height: 100%;
+}
+#MMcontentArea h3{
+   color: salmon;
+}
+#receiveMessageArea, #sendMessageArea{
+    width: 100%;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#RMTable, #SMTable{
+   width: 100%;
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+}
+#RMTable thead tr:first-Child, #SMTable thead tr:first-Child{
+   background: lightGray;
+}
+#RMTable tr, #SMTable tr{
+   border-top: 1px solid lightgray;
+   border-bottom: 1px solid lightgray;
+}
+#RMTable thead th, #SMTable th{
+   text-align: center;   
+}
+#topBtn{
+   font-size: 20px;
+   color: salmon;
+   margin-left: 90%;
+   cursor: pointer;
+}
+
+#sendMessageBtn, #receiveListMessageBtn, #sendListMessageBtn{
+   width: 140px;
+    height: 35px;
+    font-size: 22px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+}
+#SMDeleteBtn, #RMBtnsArea{
+   float: right;
+}
+#RMReplyBtn{
+   margin-top: -26px;
+   margin-left: 110px;
+}
+#SMDeleteBtn, #RMDeleteBtn, #RMReplyBtn, #sendBtn{
+    width: 100px;
+    height: 26px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#RMBtnsArea, #SMDeleteBtn{
+   margin-top: -26px;
+   margin-bottom: 3px;
+}
+#RMPagingArea, #SMPagingArea{
+   width: 100px;
+   height: 30px;
+   margin-left:auto;
+   margin-right:auto;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10px auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid salmon;
+    width: 50%; /* Could be more or less, depending on screen size */                          
+}
+.modal{
+   
+}
+#receiveId, #sendId{
+   width: 40%;
+    height: 30px;
+}
+#receiveDay, #sendDay{
+   width: 40%;
+   height: 30px;   
+}
+#receiveContent, #sendContent{
+   resize: none;
+   width: 100%;
+   height: 280px;
+}
+#sendBtn{
+   margin-right: auto;
+   margin-left: auto;
+}
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover, .close:focus {
+    color: salmon;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modalContent div{
+   border: 1px solid salmon;
+}

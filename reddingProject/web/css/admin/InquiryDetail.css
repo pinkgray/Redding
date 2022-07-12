@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+.QuestionArea{
+	border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-left: 3px solid gray;
+  	margin : 20px 0px;
+	width : auto;
+}
+
+.QuestionArea th{
+	width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: black;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.QuestionArea td{
+	width: 200px;
+    padding: 10px;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#replyContent{
+	margin-left : 7%;
+}
+
+/* a_Mstats 사이드 영역(xs) */
+
+.navList2{
+	margin:15px;
+	font-size:20px;
+	list-style:none;
+	text-align:center;
+	background:lightgray;
+	height:auto;
+}
+.navList2 li{
+	margin:15px;
+}
+
+.navList2 li:hover{
+	color:white;
+	cursor:pointer;
+}
+.sideListnav2{
+	background:lightgray;
+}
+
+
+.sidenavArea, .sidenavArea2{
+	margin-top:70px;
+}
+
+.navList{
+	list-style:none;
+	text-align:left;
+}
+
+.navList li{
+	margin:15px;
+	font-size:20px;
+	transition: padding-left 1s;
+	color:black;
+}
+
+.navList li:hover{
+	padding-left:25px;
+	cursor:pointer;
+	color:lightgray;
+}
+
+
+#replySubmit{
+	width : 70px;
+	height: 30px;
+	margin-left : 89%;
+}
+
+#updateReply{
+	width : 70px;
+	height: 30px;
+	margin-left : 89%;
+}

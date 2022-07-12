@@ -1,0 +1,118 @@
+@charset "UTF-8";
+#productInsertArea h3{
+   color: salmon;
+}
+.paginArea button{
+   background-color: white;
+   color: salmon;
+   border: 1px solid salmon;
+   cursor: pointer;
+   border-radius: 5px;
+}
+#selectArea{
+	margin-top: 5%;	
+}
+#PITable, #selectArea, #selectTable{
+   width: 100%;
+}
+#PITable td, #PITable th, #selectTable td, #selectTable th{
+   text-align: center;
+}
+#productInsertArea textarea{
+	resize: none;
+	width: 100%;
+	height: 100px;
+}
+
+#startRows{
+	border: none;
+	width: 40px;
+}
+input[name = proName], input[name = proEnrollDate]{
+	background: lightgray;
+	border: 2px solid white;
+}
+
+input[name=proPrice], input[name=proContent], #productInsertArea label, #productInsertArea textarea, input[name=proStatus]{
+	border: none;
+	cursor: pointer;
+}
+input[name = proName], input[name = proEnrollDate], input[name=proPrice], input[name=proContent]{
+   width: 100%;
+   text-align: center;
+}
+#PITable tr, #selectTable tr{
+   border-top: 1px solid lightgray;
+   border-bottom: 1px solid lightgray;   
+}
+#PITable th, #selectTable th{
+   background: lightgray;
+}
+
+#productDetailBtn:hover, #productSellYesBtn:hover, #searchBtn:hover, #productSellNoBtn:hover, #PIResetBtn:hover, #PIInsertBtn:hover, #productUploadBtn:hover,#proResBtn:hover{
+   background: white;
+   color: salmon;
+}
+#PIBtns, #sellStatusBtns, #searchBtn{
+   margin-right: auto;
+   margin-left: auto;
+   width: 220px;
+}
+#productDetailBtn{
+	margin-right: auto;
+	margin-left: auto;
+}
+#productUploadBtn, #proResBtn{
+    width: 140px;
+    height: 35px;
+    font-size: 22px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+}
+#PIInsertBtn, #PIResetBtn, #searchBtn, #productDetailBtn, #productDeleteBtn, #productSellYesBtn, #productSellNoBtn{
+    width: 100px;
+    height: 26px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-bottom: 3px;
+}
+#PIResetBtn, #productSellNoBtn{
+   float: right;
+   margin-top: -29px;
+}
+#productSearchTB th:first-Child{
+   width: 10%;
+}
+#productSearchTB th:last-Child{
+   width: 90%;
+}
+#productSearchResulTB, #productSearchTB{
+   width: 100%;
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+}
+#productSearchTB *, #productSearchResulTB *{
+   text-align: center;   
+}
+#productSearchTB tr:first-Child, #productSearchResulTB tr:first-Child{
+   background: lightGray;
+}
+#productSearchTB tr, #productSearchResulTB tr{
+   border-top: 1px solid lightgray;   
+}
+#productSearchResultList{
+   margin-top: 10px;
+    width: 100%;
+    height: 500px;
+}

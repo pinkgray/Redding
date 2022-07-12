@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.refundTable{
+	font-size:12px;
+	width:95%;
+	margin-left:20px;
+}
+.refundTable th, .refundTable td{
+	border-bottom: 1px solid gray;
+	text-align:center;
+}
+.refundTable th{
+	background:mistyrose;
+	text-align:center;
+}
+.refundTable tr{
+	height:40px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	text-align:center;
+}
+.button {
+	width:70px;
+	height:30px;
+}

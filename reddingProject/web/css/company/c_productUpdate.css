@@ -1,0 +1,63 @@
+@charset "UTF-8";
+#productInsertArea h3{
+   color: salmon;
+}
+#PITable{
+   width: 100%;
+}
+#PITable td{
+   text-align: center;
+}
+textarea{
+	width: 100%;
+}
+input[name = startTime], input[name = endTime], input[name=proStartDay], input[name=proEndDay], input[name=piPrice]{
+   width: 100%;
+}
+#PITable tr{
+   border-top: 1px solid lightgray;
+   border-bottom: 1px solid lightgray;   
+}
+#PITable select, #PIfooter{
+   width: 100%;
+}
+#PITable textarea{
+   resize: none;
+}
+#PITable th{
+   background: lightgray;
+}
+
+#PIBtns{
+   margin-right: auto;
+   margin-left: auto;
+   width: 220px;
+}
+#PIInsertBtn, #PIResetBtn{
+   width: 100px;
+    height: 26px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-bottom: 3px;
+}
+#addProBtn{
+	width: 50px;
+    height: 26px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-bottom: 3px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#PIResetBtn{
+   float: right;
+   margin-top: -29px;
+}

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+   height: auto;
+}
+
+/* Set gray background color and 100% height */
+.sidenav1 {
+   padding-top: 20px;
+   height: auto;
+
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+   .sidenav {
+      height: auto;
+      padding: 15px;
+   }
+   .row.content {
+      height: auto;
+   }
+
+}
+.errorMsg {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:30px;
+	color:#ff4733;
+}
+.contents {
+	background:whitesmoke;
+	text-align:center;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.errorImg {
+	width:200px;
+	height:200px;
+}
+.errorReason {
+	width:60%;
+	height:100px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:15px;
+	background:white;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:45px;
+}
+.goHome {
+	border-style:none;
+	background:#ff7566;
+	color:white;
+	padding:15px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:15px;
+}
+.goHome:hover {
+	border:1px solid #ff7566;
+	background:white;
+	color:#ff7566;
+	padding:15px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:15px;
+}

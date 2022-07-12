@@ -1,0 +1,124 @@
+.CouponArea{
+	width:100%;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.subTitle {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:20px;
+}
+.couponListTable {
+	font-family: 'Noto Sans KR', sans-serif;
+	text-align:center;
+	border-top:1px solid gray;
+	width:100%;
+}
+.couponListTable tr {
+	border-bottom:1px solid gray;
+}
+.couponListTable thead tr {
+	background:MistyRose;
+	height:40px;
+}
+.couponListTable tbody tr {
+	height:100px;
+}
+.nonIssuableCoupon {
+	width:60%;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-family: 'Noto Sans KR', sans-serif;
+	background:gray;
+	color:white;
+	border:1px solid gray;
+}
+.issuableCoupon {
+	width:60%;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-family: 'Noto Sans KR', sans-serif;
+	background:salmon;
+	color:white;
+	border:1px solid salmon;
+}
+.issuableCoupon:hover {
+	width:60%;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-family: 'Noto Sans KR', sans-serif;
+	background:white;
+	color:salmon;
+	border:1px solid salmon;
+}
+.modal {
+	height:600px;
+}
+.modalHeader {
+	font-family: 'Noto Sans KR', sans-serif;
+	text-align:center;
+}
+.modalContents {
+	width:100%;
+	height:100%;
+	padding-top:30px;
+	padding-left:30px;
+	padding-right:30px;
+	text-align:center;
+}
+.modalTable {
+	width:100%;
+	font-family: 'Noto Sans KR', sans-serif;
+	text-align:center;
+}
+.modalTable td{
+	width:25%;
+	padding:15px;
+	border-top:1px solid gray;
+	border-bottom:1px solid gray;
+}
+.modalTableTd {
+	background:mistyRose;
+}
+input {
+	border:1px solid lightgray;
+	height:23px;
+	width:200px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+select {
+	border:1px solid lightgray;
+	height:23px;
+	width:200px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+option {
+	border:1px solid lightgray;
+	height:23px;
+	width:200px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+textarea {
+	border:1px solid lightgray;
+	height:23px;
+	width:460px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.modalBtn {
+	width:100px;
+	height:40px;
+	background:white;
+	color:salmon;
+	border:1px solid salmon;
+}
+.modalBtn:hover {
+	width:100px;
+	height:40px;
+	background:salmon;
+	color:white;
+	border:1px solid salmon;
+}
+.couponImgArea {
+	width:100%;
+	height:100%;
+	text-align:center;
+	vertical-align:middle;	
+}

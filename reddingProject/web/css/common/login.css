@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.loginArea {
+	text-align:center;
+}
+.title {
+	color:salmon;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:35px;
+}
+.subTitle {
+	color:gray;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:12px;
+}
+.loginTable td {
+	width:100px;
+	height:50px;
+	font-family: 'Noto Sans KR', sans-serif;
+	text-align:left;
+	padding-left:15px;
+}
+.loginBtn {
+	width:80px;
+	height:80px;
+	background:salmon;
+	color:white;
+	border-style:none;
+}
+.loginBtn:hover {
+	width:80px;
+	height:80px;
+	background:white;
+	color:salmon;
+	border:1px solid salmon;
+}
+.loginMenu {
+	font-family: 'Noto Sans KR', sans-serif;
+	background:white;
+	color:salmon;
+	border-style:none;
+}
+.loginMenu:hover {
+	font-family: 'Noto Sans KR', sans-serif;
+	background:white;
+	color:salmon;
+	border:1px solid salmon;
+}

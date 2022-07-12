@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+com_wrap{
+	width: 100%;
+}
+
+#com_title{
+	color: #989898;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size : 30px;
+}
+
+
+
+#com_label{
+	font-weight : bold;
+	font-size : 20px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.comTable{
+	width : 200%;
+}
+
+.comTable tr>td{
+	padding-right : 20px;
+	padding-bottom : 20px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size : 15px;
+}
+
+.fileBox .fileName {
+	display:inline-block;
+	width:190px;height:30px;
+	padding-left:10px;margin-right:5px;
+	line-height:30px;border:1px solid #aaa;
+	background-color:#fff;
+	vertical-align:middle;
+}
+
+.fileBox .btn_file {
+	display:inline-block;
+	border:1px solid #FB6E5F;
+	background : #FB6E5F;
+	color: white;
+	width:100px;height:30px;
+	font-size:12px;
+	line-height:30px;border-radius : 6%;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.fileBox:hover .btn_file:hover {
+	display:inline-block;
+	border:1px solid #FB6E5F;
+	background : white;
+	color: #FB6E5F;
+}
+
+input[type="checkbox"]{
+	padding:10;margin:-1px;
+}
+
+
+
+.fileBox input[type="file"] 
+{
+	position:absolute;
+	width:1px;height:1px;
+	padding:0;margin:-1px;
+	overflow:hidden;
+	clip:rect(0,0,0,0);border:0;
+}
+
+
+.comTable td>button,input[type=button]{
+	border : 0;
+	outline : 0;
+	background: #FB6E5F;
+	color : white;
+	width : 70px;
+	height  : 25px;
+	border-radius : 6%;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size : 15px;
+}
+
+.comTable td>button:hover,.comTable input[type=button]:hover{
+	background: white;
+	color : #FB6E5F;
+	border : 1px solid #FB6E5F;
+}
+
+.com_term{
+	margin-right : auto;
+}
+
+#all_check{
+	font-size : 20px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.com_wrap textarea{
+	width : 100%;
+	height : 200px;
+	
+}
+
+#com_btn{
+	width : 300px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : 7%;
+	align : center;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size : 20px;
+}
+
+#com_btn input{
+	border : 0;
+	outline : 0;
+	background: #FB6E5F;
+	color : white;
+	width : 100px;
+	height  : 35px;
+	border-radius : 6%;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#com_btn input:hover{
+	background: white;
+	color : #FB6E5F;
+	border : 1px solid #FB6E5F;
+}
+
+
+#confirmacc {
+	background: #FB6E5F;
+	color : white;
+	border : 1px solid #FB6E5F;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#confirmacc:hover{
+	background: white;
+	color : #FB6E5F;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#star{
+	color:red;
+}

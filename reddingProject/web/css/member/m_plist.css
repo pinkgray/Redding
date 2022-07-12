@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.list1>table {
+   display:inline-block;
+   width:300px;
+   height:100%;
+}
+#grade1 {
+   font-size:20px;
+   color:orange;
+}
+#title1 {
+   font-size:20px;
+   height:10%;
+}
+#price1 {
+   color:salmon;
+   height:50%;
+   font-size:30px;
+}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.comCalcTable, .comCalcTable2{
+	font-size:12px;
+	width:95%;
+	margin-left:20px;
+}
+.comCalcTable th, .comCalcTable td, .comCalcTable2 th, .comCalcTable2 td{
+border-bottom: 1px solid gray;
+	text-align:center;
+}
+.comCalcTable th, .comCalcTable2 th{
+	background:mistyrose;
+	text-align:center;
+}
+.comCalcTable tr, .comCalcTable2 tr{
+	height:40px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	text-align:center;
+}
+.button {
+	width:100px;
+	height:30px;
+	font-size:20px;
+}
+

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.boardTable td{
+	padding: 30px;
+}
+
+#like , #hate{
+	outline : 0 ;
+	border : 0 ; 
+	background : none;
+}

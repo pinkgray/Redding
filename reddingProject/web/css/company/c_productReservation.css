@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* 상품관리 페이지 css */
+#productListContentsArea{
+   width: 100%;
+   margin-right: auto;
+   margin-left: auto;
+}
+#productListContentsArea h2{
+   color: salmon;
+}
+#startRows{
+	border: none;
+	width: 40px;
+}
+input[name=productSearchForName]{
+	width: 80%;
+}
+#productListAll, #PMBtns{
+   width: 100%;
+}
+#productCountAllTb{
+   width: 80%;
+}
+#PMBtns{
+   margin-left: 90%;
+}
+#productListContentsArea button{
+   background-color: white;
+   color: salmon;
+   border: 1px solid salmon;
+   cursor: pointer;
+   border-radius: 5px;
+}#productSellNoBtn{
+   float: right;
+   margin-top: -29px;
+}
+#productDetailBtn:hover, #searchBtn:hover, #productUploadBtn:hover, #productSellYesBtn:hover, #productSellNoBtn:hover{
+   background: white;
+   color: salmon;
+}
+#sellStatusBtns{
+   margin-right: auto;
+   margin-left: auto;
+   width: 220px;
+}
+#productUploadBtn, #proResBtn{
+    width: 140px;
+    height: 35px;
+    font-size: 22px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+}
+#productDetailBtn, #searchBtn, #productSellYesBtn, #productSellNoBtn{
+    width: 100px;
+    height: 26px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-bottom: 3px;
+}
+#productSearchTB th:first-Child{
+   width: 10%;
+}
+#productSearchTB th:last-Child{
+   width: 90%;
+}
+#productSearchResulTB, #productSearchTB{
+	
+   width: 100%;
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+}
+#searchBtn{
+	margin-left: auto;
+	margin-right: auto;
+}
+#productSearchTB *, #productSearchResulTB *{
+   text-align: center;   
+}
+#productSearchTB tr:first-Child, #productSearchResulTB tr:first-Child{
+   background: lightGray;
+}
+#productSearchTB tr, #productSearchResulTB tr{
+   border-top: 1px solid lightgray;   
+}
+#productSearchResultList{
+   margin-top: 10px;
+    width: 100%;
+    height: 500px;
+}
+#productUploadBtn, #proResBtn{
+    width: 140px;
+    height: 35px;
+    font-size: 22px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+}
+#productUploadBtn:hover, #proResBtn:hover{
+	 background: white;
+   color: salmon;
+}

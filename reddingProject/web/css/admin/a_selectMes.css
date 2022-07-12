@@ -1,0 +1,82 @@
+@charset "UTF-8";
+#companyArea{
+	/* width: 100%;
+	margin-right: auto;
+	margin-left: auto; */
+	margin-top: 3%;
+}
+.rM h2{
+	color: salmon;
+}
+#receiveTB div{
+	width: 100px;
+    height: 26px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-bottom: 3px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#receiveTB div:hover{
+	color: salmon;
+	background: white;
+}
+#receiveContent{
+	width: 100%;
+	height: 250px;
+	resize: none;
+}
+#receiveSection input, #receiveSection textarea, #smSection textarea{
+	border: 1px solid lightgray;
+}
+#receiveArea{
+	height: 330px;
+	color: #7D7D7D;
+}
+#smSection{
+	width: 100%;
+}
+#smTB, #receiveTB{
+	width: 100%;
+}
+#smTB *{
+	margin-top: 1%;
+}
+#smCname{
+	width: 100%;
+	color: salmon;
+}
+#smContent{
+	width: 100%;
+	resize: none;
+	height: 300px;
+}
+#Btns{
+	margin-right: auto;
+	margin-left: auto;
+	width: 220px;
+}
+#sendBtn, #cancelBtn{
+	float: left;
+	width: 100px;
+    height: 26px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-bottom: 3px;
+}
+#sendBtn:hover, #cancelBtn:hover{
+	background: white;
+	color: salmon;
+}
+#cancelBtn{
+	float: left;
+	margin-left: 3%;
+}

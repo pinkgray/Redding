@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+#noticeContent{
+	text-align : center;
+}
+
+.wrap{
+	width : 100%;
+}
+
+.noticetable{
+	width : 50%;
+	height : 50%;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 2%;
+}
+
+.noticetable td {
+	color : black;
+}
+
+.noticetable td, .noticetable th {
+    padding: 10px;
+}
+
+.noticetable tr{
+	padding : 10%;
+}
+
+#writerbtn{
+	margin-left : 80%;
+	color : white;
+	background : #FB6E5F;
+	outline : 0;
+	border : 0;
+	border-radius : 5%;
+	width : 80px;
+	height : 30px;
+}
+
+#modifybtn{
+	margin-left : 70%;
+	color : white;
+	background : #FB6E5F;
+	outline : 0;
+	border : 0;
+	border-radius : 5%;
+	width : 80px;
+	height : 30px;
+}
+
+#deletebtn{
+	color : white;
+	background : #FB6E5F;
+	outline : 0;
+	border : 0;
+	border-radius : 5%;
+	width : 80px;
+	height : 30px;
+}
+
+#writerbtn:hover, #deletebtn:hover , #modifybtn:hover{
+	color : #FB6E5F;
+	background : white;
+}

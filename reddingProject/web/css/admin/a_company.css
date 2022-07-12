@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+.subtitle {
+	font-size:25px;
+	font-weight:bold;
+	font-family:'Noto Sans KR', sans-serif;
+}
+.searchCompanyList, .companyListTable, .companyDetailnfo, .companyNumtable {
+	width:100%;
+	height:auto;
+	font-family:'Noto Sans KR', sans-serif;
+	text-align:center;
+	
+}
+.searchCompanyList tr , .companyListTable tr, .companyDetailnfo tr, .companyNumtable tr {
+	height:40px;
+	border-top:1px solid gray;
+	border-bottom:1px solid gray;
+}
+.companyNumTableTd1 {
+	background:mistyrose;
+}
+.searchCompanyListTd1 {
+	width:20%;
+	background:mistyrose;
+}
+.searchCompanyListTd2 {
+	text-align:left;
+	padding-left:20px;
+}
+.searchCompanyListBtnArea {
+	width:100%;
+	height:auto;
+	text-align:center;
+}
+.searchCompanyListBtn:hover {
+	width:100px;
+	height:40px;
+	color:salmon;
+	background:white;
+	border:1px solid salmon;
+}
+.searchCompanyListBtn {
+	width:100px;
+	height:40px;
+	color:white;
+	background:salmon;
+	border:1px solid salmon;
+}
+
+.companyDetailnfo td {
+	width:25%;
+}
+.companyDetailInfoTd1 {
+	background:mistyrose;
+}
+.companyDetailInfoTd11 {
+	background:mistyrose;
+}
+.reply:hover {
+	width:60%;
+   	background:white;
+   	color:salmon;
+   	border:1px solid salmon;
+   	margin-left:auto;
+   	margin-right:auto;
+}
+.reply {
+	width:60%;
+   	background:salmon;
+   	color:white;
+   	border:1px solid salmon;
+   	margin-left:auto;
+   	margin-right:auto;
+}
+
+/* 욱이 코드 */
+.sidenavArea, .sidenavArea2{
+	margin-top:70px;
+}
+
+.navList{
+	list-style:none;
+	text-align:left;
+}
+
+.navList li{
+	margin:15px;
+	font-size:20px;
+	transition: padding-left 1s;
+	color:black;
+}
+
+.navList li:hover{
+	padding-left:25px;
+	cursor:pointer;
+	color:lightgray;
+}
+
+
+/* a_Mstats 사이드 영역(xs) */
+
+.navList2{
+	margin:15px;
+	font-size:20px;
+	list-style:none;
+	text-align:center;
+	background:lightgray;
+	height:auto;
+}
+.navList2 li{
+}
+
+.navList2 li:hover{
+	color:white;
+	cursor:pointer;
+}
+.sideListnav2{
+	background:lightgray;
+}
+

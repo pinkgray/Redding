@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.footer {
+	background:#ff9999;
+	color:white;
+	padding:15px;
+	font-family: 'Noto Sans KR', sans-serif;
+	float:center;
+}
+.footerBtn {
+	background:#ff9999;
+	color:white;
+	font-family: 'Noto Sans KR', sans-serif;
+	border-style:none;
+}
+.footerInfo {
+	text-align:center;
+	disply:inline-block;
+	font-size:12px;
+}
+.footerInfo2 {
+	text-align:center;
+	disply:inline-block;
+}

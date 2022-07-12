@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.checkListForm {
+	margin-left:20px;
+}
+.line {
+	height:65%;
+	border:1.5px solid lightgray;
+	position:absolute;
+	z-index:0;
+	margin:33px;
+}
+.checkListCheckBox {
+	width:30px;
+	height:30px;
+	position:relative;
+	z-index:1;
+	cursor:pointer;
+}
+.dday {
+	color:#ff7566;
+	height:25px;
+}
+.listName {
+	width:100%;
+	height:25px;
+	font-size:18px;
+}
+.checkStatus {
+	width:100px;
+	height:25px;
+	background:#ff4733;
+	color:white;
+	font-size:13px;
+	border:1px solid #ff4733;
+}

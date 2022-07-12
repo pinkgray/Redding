@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.navbar {
+	margin-bottom:0;
+	border-radius:0;
+}
+.logo {
+	height:50px;
+	background:#222;
+	color:salmon;
+	border-style:none;
+	font-size:20px;
+}
+
+

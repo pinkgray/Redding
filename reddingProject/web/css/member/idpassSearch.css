@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.SearchBtn{
+	width : 120px;
+	height : 30px;
+	margin-left : 80%;
+	margin-right : auto;
+	background : #FB6E5F;
+	color: white;
+	outline : 0;
+	border : 0;
+}
+
+.SearchBtn:hover{
+	background : white;
+	color: #FB6E5F;
+	
+}
+
+.idpassTable tr{
+	margin-bottom :20%;
+}
+
+.idpassTable td, .idpassTable th {
+    padding: 10px;
+}
+
+.idpassTable tr{
+	padding : 10%;
+}
+
+#email3,#Pemail3{
+	height : 28px;
+	margin-left : 5px;
+}
+
+.idpassTable input{
+	width : 140px;
+}

@@ -1,0 +1,73 @@
+@charset "UTF-8";
+#productInsertArea h3{
+   color: salmon;
+}
+#selectArea{
+	margin-top: 5%;	
+}
+input[name = useDate], input[name = uproStartTime], input[name = uproEndTime], input[name=uproNum]{
+	width: 100%;
+}
+#PITable, #selectTable{
+   width: 100%;
+}
+#PITable td, #PITable th{
+   text-align: center;
+}
+input[name = useDate], input[name = uproStartTime], input[name = uproEndTime]{
+	background: lightgray;
+	border: 2px solid white;
+}
+
+input[name=uproNum], input[name=uproStatus], #productInsertArea label{
+	border: none;
+	cursor: pointer;
+}
+input[name = useDate], input[name = uproStartTime], input[name = uproEndTime], input[name=uproNum], input[name=uproStatus]{
+   text-align: center;
+}
+#PITable tr{
+   border-top: 1px solid lightgray;
+   border-bottom: 1px solid lightgray;   
+}
+#PITable th{
+   background: lightgray;
+}
+
+#productDetailBtn:hover, #PIResetBtn:hover, #PIInsertBtn:hover, #productUploadBtn:hover,#proResBtn:hover, #productUploadBtn:hover,#proResBtn:hover{
+   background: white;
+   color: salmon;
+}
+#productUploadBtn, #proResBtn{
+    width: 140px;
+    height: 35px;
+    font-size: 22px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+}
+#PIBtns{
+   margin-right: auto;
+   margin-left: auto;
+   width: 220px;
+}
+#PIInsertBtn, #PIResetBtn{
+   width: 100px;
+    height: 26px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-bottom: 3px;
+}
+#PIResetBtn{
+   float: right;
+   margin-top: -29px;
+}

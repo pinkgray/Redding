@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.miniMenu {
+	font-family:'Noto Sans KR', sans-serif;
+	text-align:right;
+}
+.miniMenu ul li {
+	vertical-align:middle;
+	display:inline; 
+}
+.miniMenuBtn {
+	border-style:none;
+	color:gray;
+	background:white;
+	text-align:center;
+}
+.miniMenuBtn:hover {
+	border-style:none;
+	color:salmon;
+	background:white;
+	cursor:pointer;
+	text-align:center;
+}
+
+#WishForm{
+	display :inline;
+}

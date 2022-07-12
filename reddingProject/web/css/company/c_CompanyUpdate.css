@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+#container{
+	width : 670px;
+}
+
+.panel{
+	width : 570px;
+	height : auto;
+}
+
+.panel-heading{
+	height : auto;
+}
+
+.sideMenu2{
+	width : 50px;
+}
+
+#titlePicture{
+	width  : 100%;
+	height : 400px;
+}
+
+#titleimg{
+	width : 100%;
+	height : 100%;
+	max-width : 80%;
+	max-height : 100%;
+	margin: auto;
+    margin-left: 10%;
+}
+
+#photoSubmit, #photoUpdate{
+	width : 10%;
+	height : 30px;
+	margin-top : 40px;
+	position: fixed;
+	outline : 0;
+	border: 0;
+	background: #FB6E5F;
+	color: white;
+	border-radius : 4%;
+}
+
+#photoSubmit:hover , #photoUpdate:hover{
+	background: white;
+	color: #FB6E5F;
+}
+
+#imgTable {
+	width : 100%;
+	height : auto;
+	margin : 0 20px;
+	margin-top : 10px;
+	margin-bottom : 10px;
+	border : none;
+}
+
+#imgTable td{
+	width : 30%;
+	height : auto;
+	/* margin : 0 10px; */
+}
+
+
+.imgArea{
+	width: 300px;
+    height: 200px;
+    margin-left: 10%;
+}
+
+.subimg{
+	width: 100%;
+	height: 100%;
+	display: block;
+	/* margin: auto;
+	margin-left : auto;
+	margin-right : auto; */
+}
+
+
+.sidenav1 ul{
+	list-style: none;
+    margin: 0;
+    padding: 0;	
+}
+
+.sidenav1 li{
+	padding : 10px;
+    font-family: 'Sunflower', sans-serif;
+}
+
+/* .sidenav1 li:hover{
+	background : mistyrose;
+} */
+
+.con1{
+	font-family: 'Sunflower', sans-serif;
+}
+
+
+
+.comTable{
+	width : 100%;
+}
+
+.comTable tr>th {
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+
+.comTable tr>td{
+	padding-bottom : 15px;
+	font-size : 14px;
+}
+
+.comTable td>button,input[type=button]{
+	border : 0;
+	outline : 0;
+	background: #FB6E5F;
+	color : white;
+	width : 95px;
+	height  : 25px;
+	border-radius : 6%;
+	font-size : 15px;
+}
+
+.comTable td>button:hover,.comTable input[type=button]:hover{
+	background: white;
+	color : #FB6E5F;
+	border : 1px solid #FB6E5F;
+}
+
+.com_term{
+	margin-left : 25%;
+	margin-right : auto;
+}
+
+.form-group button{
+	border : 0;
+	outline : 0;
+	background: #FB6E5F;
+	color : white;
+	width : 100px;
+	height  : 30px;
+	border-radius : 6%;
+	font-size : 15px;
+}
+
+.form-group button:hover{
+	background: white;
+	color : #FB6E5F;
+	border : 1px solid #FB6E5F;
+} 
+
+#delete {
+    margin-left: 25%;
+}
+
+#combtn {
+    margin-left: 1%;
+}
+
+.fileBox .fileName {
+	display:inline-block;
+	width:190px;height:30px;
+	padding-left:5px;margin-right:5px;
+	line-height:30px;border:1px solid #aaa;
+	background-color:#fff;
+	vertical-align:middle;
+}
+
+.fileBox .btn_file {
+	display:inline-block;
+	border:1px solid #FB6E5F;
+	background : #FB6E5F;
+	color: white;
+	width:100px;height:30px;
+	font-size:12px;
+	line-height:30px;border-radius : 6%;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.fileBox:hover .btn_file:hover {
+	display:inline-block;
+	border:1px solid #FB6E5F;
+	background : white;
+	color: #FB6E5F;
+}
+
+input[type="checkbox"]{
+	padding:20;margin:20px;
+}
+
+
+
+.fileBox input[type="file"] 
+{
+	position:absolute;
+	width:1px;height:1px;
+	padding:0;margin:-1px;
+	overflow:hidden;
+	clip:rect(0,0,0,0);border:0;
+}

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.joinSelectionArea {
+	text-align:center;
+}
+.title {
+	color:salmon;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:35px;
+}
+.subTitle {
+	color:gray;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:12px;
+}
+.joinBtn {
+	width:45%;
+	height:100%;
+	background:white;
+	font-family: 'Noto Sans KR', sans-serif;
+	border:1px solid salmon;
+	text-align:center;
+	font-size:16px;
+}
+.joinBtn:hover {
+	width:45%;
+	height:100%;
+	background:MistyRose;
+	color:white;
+	font-family: 'Noto Sans KR', sans-serif;
+	border:1px solid MistyRose;
+	text-align:center;
+	font-size:16px;
+	cursor:pointer;
+}
+.joinBtnImg {
+	width:120px;
+	height:120px;
+}
+.label1 {
+	color:white;
+	background:salmon;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:20px;
+}
+.label2 {
+	color:gray;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:15px;
+}

@@ -1,0 +1,115 @@
+@charset "UTF-8";
+.messageArea table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+#sendMesTB *{
+	border: none;
+}
+#sendMesTB tr{
+	border-top: 1px solid lightgray;
+}
+.messageArea table th {
+	padding: 8px;
+	text-align: center;
+}
+.messageArea table tr td {
+	padding: 8px;
+	border-bottom: 1px solid gray;
+	text-align: center;
+}
+
+#messaget, #plusInfot {
+	border: 1px solid gray;
+	width: 100%;
+}
+
+#text1, #text2 {
+	float: left;
+	font-size: 25px;
+	margin-left: 0;
+}
+
+#text3, #text4 {
+	float: left;
+	font-size: 20px;
+	margin-left: 3%;
+}
+#searchBtns{
+	width: 60px; 
+	height: 26px;
+	background: salmon; 
+	color: white; 
+	border: 2px double salmon; 
+	text-align: center; 
+	border-radius: 5px; 
+	cursor: pointer; 
+	margin-left: 3%;
+}
+#searchBtns:hover{
+	background: white;
+	color: salmon;
+}
+.sidenav1 {
+	color: black;
+	font-size: 20px;
+}
+.btns {
+	float: right;
+}
+
+.search {
+	float: right;
+}
+
+.memberList {
+	text-align: center;
+}
+
+
+/* 욱이 코드 */
+.sidenavArea, .sidenavArea2{
+	margin-top:70px;
+}
+
+.navList{
+	list-style:none;
+	text-align:left;
+}
+
+.navList li{
+	margin:15px;
+	font-size:20px;
+	transition: padding-left 1s;
+	color:black;
+}
+
+.navList li:hover{
+	padding-left:25px;
+	cursor:pointer;
+	color:lightgray;
+}
+
+
+/* a_Mstats 사이드 영역(xs) */
+
+.navList2{
+	margin:15px;
+	font-size:20px;
+	list-style:none;
+	text-align:center;
+	background:lightgray;
+	height:auto;
+}
+.navList2 li{
+	margin:15px;
+}
+
+.navList2 li:hover{
+	color:white;
+	cursor:pointer;
+}
+.sideListnav2{
+	background:lightgray;
+}

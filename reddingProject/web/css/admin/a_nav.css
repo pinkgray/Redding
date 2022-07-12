@@ -1,0 +1,31 @@
+@charset "UTF-8";
+.navbar {
+	margin-bottom:0;
+	border-radius:0;	
+}
+.logo {
+	
+	height:50px;
+	background:#222;
+	color:salmon;
+	border-style:none;
+	font-size:20px;
+}
+
+#myNavbar li ul {
+background: rgb(109,109,109);
+display:none;  /* 평상시에는 서브메뉴가 안보이게 하기 */
+height:auto;
+padding:0px;
+margin:0px;
+border:0px;
+position:absolute;
+width:150px;
+z-index:200;
+}
+
+#myNavbar li:hover ul {
+display:block;   /* 마우스 커서 올리면 서브메뉴 보이게 하기 */
+}
+
+	

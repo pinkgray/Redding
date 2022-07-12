@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.availableCoupon, .imminentCoupon, .downAvailableCoupon {
+	width:48%;
+	height:auto;
+	border:1px solid salmon;
+	background:white;
+	text-align:right;
+	display:inline-block;
+	padding:20px;
+}
+.couponLabel1 {
+	color:#ff4733;
+	font-size:20px;
+	text-align:left;
+}
+.couponLabel21, .couponLabel22, .couponLabel23 {
+	font-size:15px;
+}
+.couponLabel3 {
+	font-size:18px;
+}
+.availableCouponList, .usedCouponList {
+	width:49%;
+	height:100%;
+	text-align:center;
+	background:whitesmoke;
+	display:inline-block;
+	font-size:15px;
+	border-style:none;
+	padding:5px;
+}
+.availableCouponList:hover, .usedCouponList:hover {
+	width:49%;
+	height:100%;
+	text-align:center;
+	background:mistyrose;
+	display:inline-block;
+	font-size:15px;
+	border-style:none;
+	padding:5px;
+}
+.couponTable {
+	width:100%;
+	background:white;
+	text-align:center;
+	font-family:'Noto Sans KR', sans-serif;
+}
+.couponTable thead{
+	background:salmon;
+	color:white;
+}
+.couponTable thead td{
+	height:30px;
+}
+.couponTable tbody{
+	width:100%;
+	background:white;
+	text-align:center;
+}
+.couponTable tbody td{
+	height:100px;
+}
+
+.couponDiv {
+	width:32%; 
+	height:auto; 
+	display:inline-block; 
+	text-align:center;
+}
+.couponDownloadBtn {
+	background:salmon; 
+	color:white;
+	width:100%; 
+	height:100%; 
+	border:1px solid salmon;
+	font-size:20px;
+}
+.couponDownloadBtn:hover {
+	background:white; 
+	color:salmon;
+	width:100%; 
+	height:100%; 
+	border:1px solid salmon;
+	font-size:20px;
+}

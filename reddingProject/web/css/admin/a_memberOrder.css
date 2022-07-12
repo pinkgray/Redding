@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.input{
+	float:right;
+	
+}
+.memberArea table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.memberArea table th {
+	padding: 8px;
+	text-align: center;
+}
+
+.memberArea table tr td {
+	padding: 8px;
+	border-bottom: 1px solid gray;
+	text-align: center;
+}
+
+#memberNumt, #plusInfot {
+	border: 1px solid gray;
+}
+
+#detailt {
+	border-top: 1px solid gray;
+}
+
+#text1, #text2 {
+	float: left;
+	font-size: 25px;
+	margin-left: 0;
+}
+
+#text3{
+	float: left;
+	font-size: 20px;
+	margin-left: 3%;
+}
+#text4{
+	float:center;
+	width:100%;
+}
+
+.sidenav1 {
+	color: black;
+	font-size: 20px;
+}
+
+.btns {
+	float: right;
+}
+
+/* 욱이 코드 */
+.sidenavArea, .sidenavArea2{
+	margin-top:70px;
+}
+
+.navList{
+	list-style:none;
+	text-align:left;
+}
+
+.navList li{
+	margin:15px;
+	font-size:20px;
+	transition: padding-left 1s;
+	color:black;
+}
+
+.navList li:hover{
+	padding-left:25px;
+	cursor:pointer;
+	color:lightgray;
+}
+
+/* a_Mstats 사이드 영역(xs) */
+
+.navList2{
+	margin:15px;
+	font-size:20px;
+	list-style:none;
+	text-align:center;
+	background:lightgray;
+	height:auto;
+}
+.navList2 li{
+	margin:15px;
+}
+
+.navList2 li:hover{
+	color:white;
+	cursor:pointer;
+}
+.sideListnav2{
+	background:lightgray;
+}

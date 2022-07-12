@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/* a_Mstats 컨텐츠 영역 */
+/* .mtotalStatsArea, .mselectArea, .cselectArea, .ctotalStatsArea{
+	width:100%;
+}
+
+.mselectBtnArea label{
+	width:3%;
+}
+.cselectBtnArea label{
+	width:3%;
+}
+
+table{
+	width:100%;
+}
+
+table th{
+	margin:10%;
+	text-align:center;
+	background:lightgray;
+	border:1px solid lightgray;
+	padding:1%;
+}
+table td{
+	text-align:center;
+	border:1px solid lightgray;
+	padding:1%;
+}
+
+.mselectArea table th{
+	border:none;
+}
+.cselectArea table th{
+	border:none;
+}
+
+.mselectArea table td{
+	text-align:center;
+	border:none;
+	border-bottom:1px solid lightgray;
+	padding:1%;
+}
+.cselectArea table td{
+	text-align:center;
+	border:none;
+	border-bottom:1px solid lightgray;
+	padding:1%;	
+}
+
+
+.mselectBtnArea label:hover{
+	background:salmon;
+	border-radius:25%;
+	cursor:pointer;
+}
+
+.cselectBtnArea label:hover{
+	background:salmon;
+	border-radius:25%;
+	cursor:pointer;
+	
+} */
+
+/* a_Mstats 사이드 영역 */
+
+.sidenavArea, .sidenavArea2{
+	margin-top:70px;
+}
+
+.navList{
+	list-style:none;
+	text-align:left;
+}
+
+.navList li{
+	margin:15px;
+	font-size:15px;
+	color:black;
+}
+
+.navList{
+	cursor:pointer;
+	color:lightgray;
+}
+
+
+/* a_Mstats 사이드 영역(xs) */
+
+.navList2{
+	margin:15px;
+	font-size:20px;
+	list-style:none;
+	text-align:center;
+	background:lightgray;
+}
+.navList2 li{
+	margin:15px;
+}
+
+.navList2 li:hover{
+	color:white;
+	cursor:pointer;
+}
+.sideListnav2{
+	 background:lightgray; 
+}
+
+/* a_Pstats 컨텐츠영역 */
+
+/* .ptotalStatsArea{
+	width:100%;
+}
+
+.pselectArea table th{
+	border:none;
+}
+
+.pselectArea table td{
+	text-align:center;
+	border:none;
+	border-bottom:1px solid lightgray;
+	padding:1%;
+}
+
+.pselectBtnArea label{
+	width:3%;
+}
+
+.pselectBtnArea label:hover{
+	background:salmon;
+	border-radius:25%;
+	cursor:pointer;
+} */
+
+/* a_Sstats 컨텐츠영역 */
+
+/* .StotalStatsArea, .dtotalStatsArea, .mtotalStatsArea, .ytotalStatsArea{
+	width:100%;
+}
+
+.sArea{
+	height:auto;
+	border:1px solid black;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.StotalStatsArea table td{
+} */
+
+

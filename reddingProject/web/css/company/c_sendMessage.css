@@ -1,0 +1,63 @@
+@charset "UTF-8";
+#sendMessageArea{
+   width: 100%;
+   height: 100%;
+   
+}
+#sendMessageArea h3{
+   color :  salmon;
+}
+#SMSection{
+   width: 100%;
+   height: 100%;
+   text-align: center;
+}
+#messageTitleArea, #messageContent{
+   margin-top: 10px;
+   width: 90%;
+}
+#messageTitleInputArea, #messageContent{
+   border: 1px solid lightgray;
+   width: 100%;
+}
+#messageContent{
+   height: 400px;   
+   margin-left: -10px;
+}
+#sendMessageBtn, #receiveListMessageBtn, #sendListMessageBtn{
+   width: 140px;
+    height: 35px;
+    font-size: 22px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+}
+#sendMessageToAdminBtn{
+   margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    height: 26px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#send, #reset{
+   font-size: 17px;
+    width: 100px;
+    height: 26px;
+    background: salmon;
+    color: white;
+    border: 2px double salmon;
+    text-align: center;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-bottom: 3px;
+}

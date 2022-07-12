@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.SurveyArea{
+	text-align:center;
+	float:center;
+	width:100%;
+}
+
+.SurveyArea table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align:center;
+}
+#surveyList{
+	width:100%;	
+}
+#surveyList td{
+	border-bottom:1px solid lightgray;
+}
+#surveyList th{
+	text-align:center;
+}
+.search{
+	float:right;
+}
+#text1{
+	float:center;
+}
+#insertList, #deleteList {
+	float: left;
+}
+#updateList{
+	float:right;
+}

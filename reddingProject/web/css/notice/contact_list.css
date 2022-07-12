@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+.container hr{
+	border : solid 1px gray;
+	background : gray;
+}
+
+.writerbtn, .listbtn {
+	float : left ; 
+	border : 1px solid #FB6E5F;
+	width : 250px;
+	height : 100px;
+}
+
+.writerbtn{
+	margin-left : 7%;
+}
+
+.listbtn{
+	margin-left : 3%;
+}
+
+.writerbtn>img , .listbtn>img{
+	width : 100px;
+	height : 100px;
+} 
+
+.labeldiv{
+	width : 120px;
+	height : 100px;
+	float : right;
+}
+
+.labeldiv label{
+	margin-top : 15%;
+	font-size : 25px;
+	color : gray;
+}
+
+.material-icons.md-36{
+	color : gray;
+	font-size: 60px; 
+	margin-left : 20%;
+	margin-top : 6%;
+}
+
+.conMenu{
+	width : 100%;
+	height : 100px;
+}
+
+.contactwrite{
+	width : 100%;
+	height : auto;
+}
+
+#writerTable{
+	border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-left: 3px solid #369;
+  	margin : 20px 10px;
+	margin-left : 5%;
+	width : auto;
+	heifht :auto;
+}
+
+#writerTable th{
+	width: 300px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: black;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#writerTable td{
+	width: 500px;
+    padding: 10px;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#writerTable select,#writerTable input , #writerTable textArea {
+	color : black;
+	width : 500px;
+}
+
+#consubmit{
+	background : #FB6E5F;
+	color : white;
+	width : 100px;
+	height : 30px;
+	outline : 0;
+	border: 0;
+	border-radius: 5%;
+	margin-left : 80%;
+}
+
+ #writerTable textArea{
+ 	resize : none;
+ }
+
+.listbtn{
+	 background-color:#FB6E5F;
+	 border-radius : 3%;
+}
+
+#writeIcon, #wlabel{
+  color : white;
+}
+
+.contactwrite{
+	margin-left : 5%;
+}
+
+.contacttable{
+	width: 90%;
+    border-top: 1px solid #444444;
+    border-collapse: collapse;
+}
+
+.contacttable tr{
+	border-top : 1px solid black;
+	border-bottom : 1px solid black;
+}
+
+.contacttable th,.contacttable td{
+	color : black;
+	padding: 10px;
+}
+
+.contactwrite h3{
+	color : gray;
+}
+				
